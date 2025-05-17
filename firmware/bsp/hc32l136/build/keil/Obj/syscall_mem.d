@@ -1,0 +1,11 @@
+.\build\keil\obj\syscall_mem.o: ..\..\components\libc\compilers\armlibc\syscall_mem.c
+.\build\keil\obj\syscall_mem.o: ..\..\include\rtthread.h
+.\build\keil\obj\syscall_mem.o: .\rtconfig.h
+.\build\keil\obj\syscall_mem.o: ..\..\include\rtdebug.h
+.\build\keil\obj\syscall_mem.o: ..\..\include\rtdef.h
+.\build\keil\obj\syscall_mem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\syscall_mem.o: ..\..\include\rtservice.h
+.\build\keil\obj\syscall_mem.o: ..\..\include\rtm.h
+.\build\keil\obj\syscall_mem.o: ..\..\include\rtthread.h
+.\build\keil\obj\syscall_mem.o: ..\..\components\finsh\finsh.h
+.\build\keil\obj\syscall_mem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

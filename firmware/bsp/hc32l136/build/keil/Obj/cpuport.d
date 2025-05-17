@@ -1,0 +1,10 @@
+.\build\keil\obj\cpuport.o: ..\..\libcpu\arm\cortex-m0\cpuport.c
+.\build\keil\obj\cpuport.o: ..\..\include\rtthread.h
+.\build\keil\obj\cpuport.o: .\rtconfig.h
+.\build\keil\obj\cpuport.o: ..\..\include\rtdebug.h
+.\build\keil\obj\cpuport.o: ..\..\include\rtdef.h
+.\build\keil\obj\cpuport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\cpuport.o: ..\..\include\rtservice.h
+.\build\keil\obj\cpuport.o: ..\..\include\rtm.h
+.\build\keil\obj\cpuport.o: ..\..\include\rtthread.h
+.\build\keil\obj\cpuport.o: ..\..\components\finsh\finsh.h

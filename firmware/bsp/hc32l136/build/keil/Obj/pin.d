@@ -1,0 +1,11 @@
+.\build\keil\obj\pin.o: ..\..\components\drivers\misc\pin.c
+.\build\keil\obj\pin.o: ..\..\components\drivers\include\drivers/pin.h
+.\build\keil\obj\pin.o: ..\..\include\rtthread.h
+.\build\keil\obj\pin.o: .\rtconfig.h
+.\build\keil\obj\pin.o: ..\..\include\rtdebug.h
+.\build\keil\obj\pin.o: ..\..\include\rtdef.h
+.\build\keil\obj\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\pin.o: ..\..\include\rtservice.h
+.\build\keil\obj\pin.o: ..\..\include\rtm.h
+.\build\keil\obj\pin.o: ..\..\include\rtthread.h
+.\build\keil\obj\pin.o: ..\..\components\finsh\finsh.h

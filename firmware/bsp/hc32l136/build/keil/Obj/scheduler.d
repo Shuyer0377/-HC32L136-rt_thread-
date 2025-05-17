@@ -1,0 +1,11 @@
+.\build\keil\obj\scheduler.o: ..\..\src\scheduler.c
+.\build\keil\obj\scheduler.o: ..\..\include\rtthread.h
+.\build\keil\obj\scheduler.o: .\rtconfig.h
+.\build\keil\obj\scheduler.o: ..\..\include\rtdebug.h
+.\build\keil\obj\scheduler.o: ..\..\include\rtdef.h
+.\build\keil\obj\scheduler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\scheduler.o: ..\..\include\rtservice.h
+.\build\keil\obj\scheduler.o: ..\..\include\rtm.h
+.\build\keil\obj\scheduler.o: ..\..\include\rtthread.h
+.\build\keil\obj\scheduler.o: ..\..\components\finsh\finsh.h
+.\build\keil\obj\scheduler.o: ..\..\include\rthw.h

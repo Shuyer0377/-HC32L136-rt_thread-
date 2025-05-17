@@ -1,0 +1,11 @@
+.\build\keil\obj\timer.o: ..\..\src\timer.c
+.\build\keil\obj\timer.o: ..\..\include\rtthread.h
+.\build\keil\obj\timer.o: .\rtconfig.h
+.\build\keil\obj\timer.o: ..\..\include\rtdebug.h
+.\build\keil\obj\timer.o: ..\..\include\rtdef.h
+.\build\keil\obj\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\timer.o: ..\..\include\rtservice.h
+.\build\keil\obj\timer.o: ..\..\include\rtm.h
+.\build\keil\obj\timer.o: ..\..\include\rtthread.h
+.\build\keil\obj\timer.o: ..\..\components\finsh\finsh.h
+.\build\keil\obj\timer.o: ..\..\include\rthw.h

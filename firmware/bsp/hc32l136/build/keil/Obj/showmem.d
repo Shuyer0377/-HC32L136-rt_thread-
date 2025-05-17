@@ -1,0 +1,10 @@
+.\build\keil\obj\showmem.o: ..\..\libcpu\arm\common\showmem.c
+.\build\keil\obj\showmem.o: ..\..\include\rtthread.h
+.\build\keil\obj\showmem.o: .\rtconfig.h
+.\build\keil\obj\showmem.o: ..\..\include\rtdebug.h
+.\build\keil\obj\showmem.o: ..\..\include\rtdef.h
+.\build\keil\obj\showmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\showmem.o: ..\..\include\rtservice.h
+.\build\keil\obj\showmem.o: ..\..\include\rtm.h
+.\build\keil\obj\showmem.o: ..\..\include\rtthread.h
+.\build\keil\obj\showmem.o: ..\..\components\finsh\finsh.h

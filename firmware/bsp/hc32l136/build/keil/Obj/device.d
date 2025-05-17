@@ -1,0 +1,10 @@
+.\build\keil\obj\device.o: ..\..\src\device.c
+.\build\keil\obj\device.o: ..\..\include\rtthread.h
+.\build\keil\obj\device.o: .\rtconfig.h
+.\build\keil\obj\device.o: ..\..\include\rtdebug.h
+.\build\keil\obj\device.o: ..\..\include\rtdef.h
+.\build\keil\obj\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\device.o: ..\..\include\rtservice.h
+.\build\keil\obj\device.o: ..\..\include\rtm.h
+.\build\keil\obj\device.o: ..\..\include\rtthread.h
+.\build\keil\obj\device.o: ..\..\components\finsh\finsh.h

@@ -1,0 +1,11 @@
+.\build\keil\obj\ipc.o: ..\..\src\ipc.c
+.\build\keil\obj\ipc.o: ..\..\include\rtthread.h
+.\build\keil\obj\ipc.o: .\rtconfig.h
+.\build\keil\obj\ipc.o: ..\..\include\rtdebug.h
+.\build\keil\obj\ipc.o: ..\..\include\rtdef.h
+.\build\keil\obj\ipc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\ipc.o: ..\..\include\rtservice.h
+.\build\keil\obj\ipc.o: ..\..\include\rtm.h
+.\build\keil\obj\ipc.o: ..\..\include\rtthread.h
+.\build\keil\obj\ipc.o: ..\..\components\finsh\finsh.h
+.\build\keil\obj\ipc.o: ..\..\include\rthw.h

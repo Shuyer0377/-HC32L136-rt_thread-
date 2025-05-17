@@ -1,0 +1,11 @@
+.\build\keil\obj\stdlib.o: ..\..\components\libc\compilers\common\stdlib.c
+.\build\keil\obj\stdlib.o: ..\..\include\rtthread.h
+.\build\keil\obj\stdlib.o: .\rtconfig.h
+.\build\keil\obj\stdlib.o: ..\..\include\rtdebug.h
+.\build\keil\obj\stdlib.o: ..\..\include\rtdef.h
+.\build\keil\obj\stdlib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\stdlib.o: ..\..\include\rtservice.h
+.\build\keil\obj\stdlib.o: ..\..\include\rtm.h
+.\build\keil\obj\stdlib.o: ..\..\include\rtthread.h
+.\build\keil\obj\stdlib.o: ..\..\components\finsh\finsh.h
+.\build\keil\obj\stdlib.o: ..\..\include\rtdbg.h

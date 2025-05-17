@@ -1,0 +1,892 @@
+Dependencies for Project 'project', Target 'rt-thread': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (applications\main.c)(0x6826EC8F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\main.o --omf_browse .\build\keil\obj\main.crf --depend .\build\keil\obj\main.d)
+I (board\board.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (drivers\drv_gpio.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+I (applications\oled.h)(0x6823EE01)
+I (applications\bmp.h)(0x6822B4A1)
+I (applications\rtc_calendar.h)(0x68255937)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\rtc.h)(0x62441BE8)
+I (applications\dht11.h)(0x68257DA0)
+F (.\applications\oled.c)(0x6823ED65)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\oled.o --omf_browse .\build\keil\obj\oled.crf --depend .\build\keil\obj\oled.d)
+I (applications\oled.h)(0x6823EE01)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (applications\oledfont.h)(0x682457B6)
+F (.\applications\rtc_calendar.c)(0x6826E8BF)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\rtc_calendar.o --omf_browse .\build\keil\obj\rtc_calendar.crf --depend .\build\keil\obj\rtc_calendar.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\rtc.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (applications\oled.h)(0x6823EE01)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (applications\rtc_calendar.h)(0x68255937)
+F (.\applications\dht11.c)(0x68257DA0)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\dht11.o --omf_browse .\build\keil\obj\dht11.crf --depend .\build\keil\obj\dht11.d)
+I (applications\dht11.h)(0x68257DA0)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (applications\oled.h)(0x6823EE01)
+F (.\applications\dht11.h)(0x68257DA0)()
+F (..\..\components\libc\compilers\armlibc\syscalls.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\syscalls.o --omf_browse .\build\keil\obj\syscalls.crf --depend .\build\keil\obj\syscalls.d)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x5E8E3CC2)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\components\libc\compilers\common\extension\fcntl.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\extension\sys/types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5E8E3CC2)
+I (..\..\components\libc\compilers\common\extension\unistd.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\extension\sys/unistd.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\extension\sys/stat.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\sys/time.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\compiler_private.h)(0x62441BE8)
+I (..\..\include\rtdbg.h)(0x62441BE8)
+F (..\..\components\libc\compilers\armlibc\syscall_mem.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\syscall_mem.o --omf_browse .\build\keil\obj\syscall_mem.crf --depend .\build\keil\obj\syscall_mem.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+F (..\..\components\libc\compilers\common\stdlib.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\stdlib.o --omf_browse .\build\keil\obj\stdlib.crf --depend .\build\keil\obj\stdlib.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rtdbg.h)(0x62441BE8)
+F (..\..\components\libc\compilers\common\time.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\time.o --omf_browse .\build\keil\obj\time.crf --depend .\build\keil\obj\time.d)
+I (..\..\components\libc\compilers\common\sys/time.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\extension\sys/types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5E8E3CC2)
+I (..\..\components\libc\compilers\common\extension\sys/errno.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x5E8E3CC2)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\extension\unistd.h)(0x62441BE8)
+I (..\..\components\libc\compilers\common\extension\sys/unistd.h)(0x62441BE8)
+I (..\..\include\rtdbg.h)(0x62441BE8)
+F (..\..\libcpu\arm\common\div0.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\div0.o --omf_browse .\build\keil\obj\div0.crf --depend .\build\keil\obj\div0.d)
+F (..\..\libcpu\arm\common\showmem.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\showmem.o --omf_browse .\build\keil\obj\showmem.crf --depend .\build\keil\obj\showmem.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\libcpu\arm\common\backtrace.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\backtrace.o --omf_browse .\build\keil\obj\backtrace.crf --depend .\build\keil\obj\backtrace.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\libcpu\arm\cortex-m0\cpuport.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\cpuport.o --omf_browse .\build\keil\obj\cpuport.crf --depend .\build\keil\obj\cpuport.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\libcpu\arm\cortex-m0\context_rvds.S)(0x62441BE8)(--cpu Cortex-M0+ -g --apcs=interwork -IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include--pd "__UVISION_VERSION SETA 534"--list .\build\context_rvds.lst --xref -o .\build\keil\obj\context_rvds.o --depend .\build\keil\obj\context_rvds.d)
+F (..\..\components\drivers\ipc\completion.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\completion.o --omf_browse .\build\keil\obj\completion.crf --depend .\build\keil\obj\completion.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+F (..\..\components\drivers\ipc\workqueue.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\workqueue.o --omf_browse .\build\keil\obj\workqueue.crf --depend .\build\keil\obj\workqueue.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+F (..\..\components\drivers\ipc\ringbuffer.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\ringbuffer.o --omf_browse .\build\keil\obj\ringbuffer.crf --depend .\build\keil\obj\ringbuffer.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (..\..\components\drivers\ipc\pipe.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\pipe.o --omf_browse .\build\keil\obj\pipe.crf --depend .\build\keil\obj\pipe.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\components\libc\compilers\common\extension\sys/errno.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x5E8E3CC2)
+F (..\..\components\drivers\ipc\waitqueue.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\waitqueue.o --omf_browse .\build\keil\obj\waitqueue.crf --depend .\build\keil\obj\waitqueue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+F (..\..\components\drivers\ipc\ringblk_buf.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\ringblk_buf.o --omf_browse .\build\keil\obj\ringblk_buf.crf --depend .\build\keil\obj\ringblk_buf.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+F (..\..\components\drivers\ipc\dataqueue.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\dataqueue.o --omf_browse .\build\keil\obj\dataqueue.crf --depend .\build\keil\obj\dataqueue.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+F (..\..\components\drivers\misc\pin.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\pin.o --omf_browse .\build\keil\obj\pin.crf --depend .\build\keil\obj\pin.d)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\components\drivers\serial\serial.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\serial.o --omf_browse .\build\keil\obj\serial.crf --depend .\build\keil\obj\serial.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+I (..\..\include\rtdbg.h)(0x62441BE8)
+F (board\board.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\board.o --omf_browse .\build\keil\obj\board.crf --depend .\build\keil\obj\board.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (board\board.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (drivers\drv_gpio.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+F (drivers\drv_gpio.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\drv_gpio.o --omf_browse .\build\keil\obj\drv_gpio.crf --depend .\build\keil\obj\drv_gpio.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (drivers\drv_gpio.h)(0x62441BE8)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+F (drivers\drv_usart.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\drv_usart.o --omf_browse .\build\keil\obj\drv_usart.crf --depend .\build\keil\obj\drv_usart.d)
+I (..\..\components\drivers\include\rtdevice.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringbuffer.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/completion.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/dataqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/workqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/waitqueue.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/pipe.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/poll.h)(0x62441BE8)
+I (..\..\components\drivers\include\ipc/ringblk_buf.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/serial.h)(0x62441BE8)
+I (..\..\components\drivers\include\drivers/pin.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\uart.h)(0x62441BE8)
+I (drivers\drv_usart.h)(0x62441BE8)
+F (..\..\components\finsh\shell.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\shell.o --omf_browse .\build\keil\obj\shell.crf --depend .\build\keil\obj\shell.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\components\finsh\shell.h)(0x62441BE8)
+I (..\..\components\finsh\msh.h)(0x62441BE8)
+F (..\..\components\finsh\msh.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\msh.o --omf_browse .\build\keil\obj\msh.crf --depend .\build\keil\obj\msh.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\components\finsh\msh.h)(0x62441BE8)
+I (..\..\components\finsh\shell.h)(0x62441BE8)
+F (..\..\components\finsh\cmd.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\cmd.o --omf_browse .\build\keil\obj\cmd.crf --depend .\build\keil\obj\cmd.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (Libraries\CMSIS\Device\HDSC\HC32L136\Source\ARM\startup_hc32l136.s)(0x62441BE8)(--cpu Cortex-M0+ -g --apcs=interwork -IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include--pd "__UVISION_VERSION SETA 534"--list .\build\startup_hc32l136.lst --xref -o .\build\keil\obj\startup_hc32l136.o --depend .\build\keil\obj\startup_hc32l136.d)
+F (Libraries\HC32L136_StdPeriph_Driver\src\trim.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\trim.o --omf_browse .\build\keil\obj\trim.crf --depend .\build\keil\obj\trim.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\trim.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\CMSIS\Device\HDSC\HC32L136\Source\system_hc32l13x.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\system_hc32l13x.o --omf_browse .\build\keil\obj\system_hc32l13x.crf --depend .\build\keil\obj\system_hc32l13x.d)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l13x.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+F (Libraries\CMSIS\Device\HDSC\HC32L136\Source\interrupts_hc32l136.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\interrupts_hc32l136.o --omf_browse .\build\keil\obj\interrupts_hc32l136.crf --depend .\build\keil\obj\interrupts_hc32l136.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\uart.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\uart.o --omf_browse .\build\keil\obj\uart.crf --depend .\build\keil\obj\uart.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\uart.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\sysctrl.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\sysctrl.o --omf_browse .\build\keil\obj\sysctrl.crf --depend .\build\keil\obj\sysctrl.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\gpio.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\gpio.o --omf_browse .\build\keil\obj\gpio.crf --depend .\build\keil\obj\gpio.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\gpio.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\ddl.c)(0x6822A593)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\ddl.o --omf_browse .\build\keil\obj\ddl.crf --depend .\build\keil\obj\ddl.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\timer3.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\timer3.o --omf_browse .\build\keil\obj\timer3.crf --depend .\build\keil\obj\timer3.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\timer3.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\flash.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\flash.o --omf_browse .\build\keil\obj\flash.crf --depend .\build\keil\obj\flash.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\flash.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\lpuart.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\lpuart.o --omf_browse .\build\keil\obj\lpuart.crf --depend .\build\keil\obj\lpuart.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\lpuart.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\rtc.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\rtc.o --omf_browse .\build\keil\obj\rtc.crf --depend .\build\keil\obj\rtc.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\rtc.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (Libraries\HC32L136_StdPeriph_Driver\src\adc.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\adc.o --omf_browse .\build\keil\obj\adc.crf --depend .\build\keil\obj\adc.d)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\adc.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\ddl.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\base_types.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\core_cm0plus.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_version.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_compiler.h)(0x62441BE8)
+I (Libraries\CMSIS\Include\cmsis_armcc.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\system_hc32l136.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\sysctrl.h)(0x62441BE8)
+I (Libraries\HC32L136_StdPeriph_Driver\inc\interrupts_hc32l136.h)(0x62441BE8)
+I (Libraries\CMSIS\Device\HDSC\HC32L136\Include\ddl_device.h)(0x62441BE8)
+F (..\..\src\scheduler.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\scheduler.o --omf_browse .\build\keil\obj\scheduler.crf --depend .\build\keil\obj\scheduler.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+F (..\..\src\kservice.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\kservice.o --omf_browse .\build\keil\obj\kservice.crf --depend .\build\keil\obj\kservice.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+F (..\..\src\device.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\device.o --omf_browse .\build\keil\obj\device.crf --depend .\build\keil\obj\device.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\src\clock.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\clock.o --omf_browse .\build\keil\obj\clock.crf --depend .\build\keil\obj\clock.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\src\mempool.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\mempool.o --omf_browse .\build\keil\obj\mempool.crf --depend .\build\keil\obj\mempool.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\src\components.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\components.o --omf_browse .\build\keil\obj\components.crf --depend .\build\keil\obj\components.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\src\timer.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\timer.o --omf_browse .\build\keil\obj\timer.crf --depend .\build\keil\obj\timer.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+F (..\..\src\ipc.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\ipc.o --omf_browse .\build\keil\obj\ipc.crf --depend .\build\keil\obj\ipc.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+F (..\..\src\irq.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\irq.o --omf_browse .\build\keil\obj\irq.crf --depend .\build\keil\obj\irq.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\src\object.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\object.o --omf_browse .\build\keil\obj\object.crf --depend .\build\keil\obj\object.d)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (..\..\include\rthw.h)(0x62441BE8)
+F (..\..\src\idle.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\idle.o --omf_browse .\build\keil\obj\idle.crf --depend .\build\keil\obj\idle.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\src\mem.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\mem.o --omf_browse .\build\keil\obj\mem.crf --depend .\build\keil\obj\mem.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+F (..\..\src\thread.c)(0x62441BE8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I applications -I . -I ..\..\components\libc\compilers\common -I ..\..\components\libc\compilers\common\extension -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I ..\..\components\drivers\include -I board -I drivers -I ..\..\components\finsh -I Libraries\CMSIS\Include -I Libraries\CMSIS\Device\HDSC\HC32L136\Include -I Libraries\HC32L136_StdPeriph_Driver\inc -I . -I ..\..\include -I ..\..\components\libc\posix\io\poll -I ..\..\components\libc\posix\io\stdio -I ..\..\components\libc\posix\ipc --diag_suppress=186,66-IC:\Users\61414\AppData\Local\Arm\Packs\HDSC\HC32L136\1.0.1\Device\Include-D__UVISION_VERSION="534" -DHC32L136 -D__CLK_TCK="RT_TICK_PER_SECOND" -DUSE_DDL_DRIVER -D__RTTHREAD__ -D__DEBUG -DRT_USING_ARM_LIBC-o .\build\keil\obj\thread.o --omf_browse .\build\keil\obj\thread.crf --depend .\build\keil\obj\thread.d)
+I (..\..\include\rthw.h)(0x62441BE8)
+I (..\..\include\rtthread.h)(0x62441BE8)
+I (.\rtconfig.h)(0x62441BE8)
+I (..\..\include\rtdebug.h)(0x62441BE8)
+I (..\..\include\rtdef.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (..\..\include\rtservice.h)(0x62441BE8)
+I (..\..\include\rtm.h)(0x62441BE8)
+I (..\..\components\finsh\finsh.h)(0x62441BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)

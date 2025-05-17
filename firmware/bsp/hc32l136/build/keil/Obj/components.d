@@ -1,0 +1,11 @@
+.\build\keil\obj\components.o: ..\..\src\components.c
+.\build\keil\obj\components.o: ..\..\include\rthw.h
+.\build\keil\obj\components.o: ..\..\include\rtthread.h
+.\build\keil\obj\components.o: .\rtconfig.h
+.\build\keil\obj\components.o: ..\..\include\rtdebug.h
+.\build\keil\obj\components.o: ..\..\include\rtdef.h
+.\build\keil\obj\components.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\components.o: ..\..\include\rtservice.h
+.\build\keil\obj\components.o: ..\..\include\rtm.h
+.\build\keil\obj\components.o: ..\..\include\rtthread.h
+.\build\keil\obj\components.o: ..\..\components\finsh\finsh.h

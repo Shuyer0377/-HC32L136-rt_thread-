@@ -1,0 +1,13 @@
+.\build\keil\obj\msh.o: ..\..\components\finsh\msh.c
+.\build\keil\obj\msh.o: ..\..\include\rtthread.h
+.\build\keil\obj\msh.o: .\rtconfig.h
+.\build\keil\obj\msh.o: ..\..\include\rtdebug.h
+.\build\keil\obj\msh.o: ..\..\include\rtdef.h
+.\build\keil\obj\msh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\msh.o: ..\..\include\rtservice.h
+.\build\keil\obj\msh.o: ..\..\include\rtm.h
+.\build\keil\obj\msh.o: ..\..\include\rtthread.h
+.\build\keil\obj\msh.o: ..\..\components\finsh\finsh.h
+.\build\keil\obj\msh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\keil\obj\msh.o: ..\..\components\finsh\msh.h
+.\build\keil\obj\msh.o: ..\..\components\finsh\shell.h

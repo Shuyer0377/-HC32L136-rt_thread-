@@ -1,0 +1,11 @@
+.\build\keil\obj\idle.o: ..\..\src\idle.c
+.\build\keil\obj\idle.o: ..\..\include\rthw.h
+.\build\keil\obj\idle.o: ..\..\include\rtthread.h
+.\build\keil\obj\idle.o: .\rtconfig.h
+.\build\keil\obj\idle.o: ..\..\include\rtdebug.h
+.\build\keil\obj\idle.o: ..\..\include\rtdef.h
+.\build\keil\obj\idle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\idle.o: ..\..\include\rtservice.h
+.\build\keil\obj\idle.o: ..\..\include\rtm.h
+.\build\keil\obj\idle.o: ..\..\include\rtthread.h
+.\build\keil\obj\idle.o: ..\..\components\finsh\finsh.h

@@ -1,0 +1,11 @@
+.\build\keil\obj\kservice.o: ..\..\src\kservice.c
+.\build\keil\obj\kservice.o: ..\..\include\rtthread.h
+.\build\keil\obj\kservice.o: .\rtconfig.h
+.\build\keil\obj\kservice.o: ..\..\include\rtdebug.h
+.\build\keil\obj\kservice.o: ..\..\include\rtdef.h
+.\build\keil\obj\kservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\keil\obj\kservice.o: ..\..\include\rtservice.h
+.\build\keil\obj\kservice.o: ..\..\include\rtm.h
+.\build\keil\obj\kservice.o: ..\..\include\rtthread.h
+.\build\keil\obj\kservice.o: ..\..\components\finsh\finsh.h
+.\build\keil\obj\kservice.o: ..\..\include\rthw.h
